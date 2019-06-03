@@ -82,7 +82,7 @@ text = tk.StringVar()
 # set initial value of text
 text.set("")
 
-# create the result label
+# create the result labels
 result = tk.Label(root, textvariable=text, fg='black')
 result.grid(row=3, column=0, columnspan=3)
 dice_list = create_dice()
